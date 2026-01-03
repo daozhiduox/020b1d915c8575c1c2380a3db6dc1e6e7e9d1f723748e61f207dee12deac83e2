@@ -1,10 +1,10 @@
 name: daozhiduox
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '40 4/6 * * *'
-jobs:  # 16728
+    - cron: '18 2/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,20 @@ jobs:  # 16728
       - uses: actions/checkout@v4
       - name: daozhiduox
         env:
-          mist674: ${{ secrets.mist674 }}
+          skgk919: ${{ secrets.skgk919 }}
         run: |
-          echo $mist674 | jq -r .mf4 | /bin/bash
-          echo $sykm4086 | jq -r .eite25723 | /bin/bash
-          echo $fpe184 | jq -r .ux5 | /bin/bash
-          echo $btte3 | jq -r .nww42 | /bin/bash
-          echo $j26 | jq -r .nnisa02 | /bin/bash
+          echo $skgk919 | jq -r .pmq013 | /bin/bash
+          echo $q031 | jq -r .qfj51 | /bin/bash
+          echo $cp1 | jq -r .hu5211 | /bin/bash
+          echo $excpo2 | jq -r .pjlz303 | /bin/bash
+          echo $wop36 | jq -r .zztk65 | /bin/bash
+          echo $c28 | jq -r .dgdrg9 | /bin/bash
+          echo $bjd5 | jq -r .q43423 | /bin/bash
+          echo $de48 | jq -r .mc04667 | /bin/bash
+          echo $omy4 | jq -r .sro04 | /bin/bash
+          echo $a7581 | jq -r .fmylp3 | /bin/bash
+          echo $kaz19 | jq -r .e626 | /bin/bash
+          echo $h663 | jq -r .owftm50 | /bin/bash
+          echo $g193 | jq -r .ks16 | /bin/bash
+          echo $f9 | jq -r .s9 | /bin/bash
 
